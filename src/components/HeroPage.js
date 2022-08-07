@@ -1,5 +1,5 @@
 import React from "react";
-import ReviewForm from "../components/ReviewForm";
+// import ReviewForm from "../components/ReviewForm";
 
 export default function HeroPage() {
   return (
@@ -58,7 +58,6 @@ export default function HeroPage() {
             </button>
           </div>
         </div>
-        <ReviewForm />
       </section>
     </div>
   );

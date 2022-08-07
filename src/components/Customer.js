@@ -4,13 +4,6 @@ import customers from "../customers";
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(customers);
 
-  //   const removeItem = (id) => {
-  //     setPeople((oldPeople) => {
-  //       let newPeople = oldPeople.filter((person) => person.id !== id);
-  //       return newPeople;
-  //     });
-  //   };
-
   return (
     <div className="md:flex flex-row container sm:w-4/5 md:justify-between pt-6 md:pt-10  lg:pt-15">
       <div className="grid grid-cols-1 mb-6 sm:grid-cols-2 md:grid-cols-3 gap-6">
