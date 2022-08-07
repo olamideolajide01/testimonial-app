@@ -11,7 +11,7 @@ export default function TestimonialHero() {
           <p className="sm:text-xs text-[.52rem]  text-orange inline-block border-solid border border-orange py-1 px-2 rounded">
             VENDOR
           </p>
-          <p className="text-xs md:text-base sm:w-96 mt-5">
+          <p className="text-xs md:text-sm sm:w-96 mt-5">
             I had the best experience shopping with vasiti. Usability of the
             website was great, very good customer service, an all round great
             experience. I would definately be coming back! I had the best
