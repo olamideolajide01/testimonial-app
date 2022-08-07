@@ -46,7 +46,7 @@ export default function ReviewForm() {
 
                 <div className="col-span-6 sm:col-span-3">
                   <label
-                    htmlFor="last-name"
+                    htmlFor="lastname"
                     className="block text-xs font-medium text-gray-700"
                   >
                     Last Name
@@ -55,7 +55,6 @@ export default function ReviewForm() {
                     type="text"
                     name="lastname"
                     id="lastname"
-                    autoComplete="family-name"
                     className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                   />
                 </div>

@@ -17,8 +17,8 @@ export default function NavBar() {
             <li className=" self-center inline-block">ABOUT US</li>
             <li className=" self-center inline-block">STORIES</li>
             <li className=" self-center inline-block">CONTACT</li>
-            <li className=" self-center inline-block">LOGIN</li>
-            <li className=" py-2 px-3 text-white bg-orange-500 rounded  inline-block">
+            <li className=" self-center inline-block">LOG IN</li>
+            <li className=" py-2 px-3 text-white bg-orange rounded  inline-block">
               SIGN UP
             </li>
           </ul>
