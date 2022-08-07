@@ -27,30 +27,39 @@ export default function ReviewForm() {
                    focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange"
                 />
               </p>
+              <div className="grid grid-cols-6 gap-6 mb-6">
+                <div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="firstname"
+                    className="block text-xs font-medium text-gray-700"
+                  >
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    autoComplete="given-name"
+                    className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  />
+                </div>
 
-              <label htmlFor="firstname" class="block mb-3">
-                <span class="block text-xs font-medium text-slate-700">
-                  FirstName
-                </span>
-
-                <input
-                  type="text"
-                  className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                   focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange"
-                />
-              </label>
-
-              <label htmlFor="lasttname" class="block mb-3">
-                <span class="block text-xs font-medium text-slate-700">
-                  LastName
-                </span>
-
-                <input
-                  type="text"
-                  className="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                   focus:outline-none focus:border-orange focus:ring-1 focus:ring-orange"
-                />
-              </label>
+                <div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="last-name"
+                    className="block text-xs font-medium text-gray-700"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    autoComplete="family-name"
+                    className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  />
+                </div>
+              </div>
 
               <p className="mb-3">
                 <span class="block text-xs font-medium text-slate-700">
@@ -69,11 +78,8 @@ export default function ReviewForm() {
                 <div className="text-xs">
                   what did you Interact with vasiti as?
                 </div>
-                <div className="form-check">
-                  <label
-                    className="form-check-label text-xs  text-gray-800"
-                    for="Customer"
-                  >
+                <div>
+                  <label className=" text-xs  text-gray-800" for="Customer">
                     Customer
                   </label>
                   <input
@@ -83,11 +89,8 @@ export default function ReviewForm() {
                     id="customer"
                   />
                 </div>
-                <div className="form-check">
-                  <label
-                    className="form-check-label text-xs  text-gray-800"
-                    for="vendor"
-                  >
+                <div>
+                  <label className=" text-xs  text-gray-800" for="vendor">
                     Vendor
                   </label>
                   <input
