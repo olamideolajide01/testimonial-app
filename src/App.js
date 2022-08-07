@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <main>
+      <main className="mb-32">
         <HeroPage />
-        <Customer className=" container py-5" />
+        <Customer className=" container py-5 my-6" />
         <TestimonialHero />
-        <Vendors className=" container py-6" />
+        <Vendors className=" container " />
         {/* <ReviewForm /> */}
         {/* <ThankYou /> */}
       </main>

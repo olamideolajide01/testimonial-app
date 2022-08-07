@@ -29,11 +29,10 @@ const Customer = ({ image, firstname, lastname, location, category, text }) => {
       <h4 className="mt-3 font-bold text-[1.5rem]  text-stone-600">
         {firstname} {lastname}
       </h4>
-      <div className="flex flex-row space-x-4  my-1">
-        <div className="">
-          <p className="font-semibold text-stone-500">{location}</p>
-        </div>
-        <p className="room--rating ">{category}</p>
+      <div className=" my-2">
+        <p className="md:text-xs inline-block text-green-600 font-semibold py-1 px-1 rounded bg-slate-200">
+          {category}
+        </p>
       </div>
       <p className="mt-4 text-stone-600">{text}</p>
     </section>

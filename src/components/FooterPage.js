@@ -10,23 +10,31 @@ const IconStyling = `bg-white rounded-full px-2 py-2
 export default function FooterPage() {
   return (
     <footer className="bg-neutral">
-      <section className="container">
-        <div className="flex flex-row justify-around relative ">
-          <div>
+      <section className="container ">
+        <div className="flex flex-col-reverse sm:flex sm:flex-row justify-around relative  ">
+          <div className="sm:-mt-12 mt-7  ">
             <img src="imgs/footer-img.png" className=" max-w-full " alt="" />
           </div>
-          <div className="self-center text-white w-96">
-            <h2>
-              Be a member of our community <span>🎉</span>{" "}
+          <div className="self-center mt-8 sm:mt-6  md:0 text-white  ">
+            <h2 className="font-bold text-xl sm:text-2xl leading-0">
+              Be a member <br /> of our community <span>🎉</span>
             </h2>
-            <p>
-              We’d make sure you’re always first to know what’s happening on
-              Vasiti—thus, the world.
+            <p className="text-xs sm:text-sm mt-3">
+              We’d make sure you’re always first to <br /> know what’s happening
+              on Vasiti—thus, the world.
             </p>
-            <p>
-              <input type="text" placeholder="enter your email address" />
-              <button>subscribe</button>
-            </p>
+
+            <div className="flex mt-4">
+              <input
+                type="email"
+                id="subscribe"
+                class=" rounded-l-lg   text-white focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-500 dark:border-gray-600 dark:placeholder-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter your email address"
+              />
+              <button class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 rounded-r-lg border  border-gray-300 dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
 

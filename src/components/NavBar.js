@@ -28,7 +28,7 @@ export default function NavBar() {
         </section>
         <hr className="none md:divide-y divide-gray-400" />
         <section className="pb-3 max-w-full mx-auto w-4/5 py-3   ">
-          <ul className="none sm:flex flex-row items-center justify-center space-x-3 md:space-x-10 lg:space-x-20 text-xs ">
+          <ul className="none sm:flex flex-row items-center justify-center space-x-3 md:space-x-5 lg:space-x-14 text-xs ">
             <li className="">MARKETPLACE</li>
             <li className="">WHOLESALE CENTER</li>
             <li className="">SELLER CENTER</li>
