@@ -1,6 +1,6 @@
 const vendors = [
   {
-    id: 1,
+    id: 7,
     image: "imgs/img7.png",
     firstname: "Temi ",
     lastname: "Obadofin",
@@ -8,7 +8,7 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
-    id: 2,
+    id: 8,
     image: "imgs/img8.png",
     firstname: "Promise ",
     lastname: "Ejiofor",
@@ -16,7 +16,7 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
-    id: 3,
+    id: 9,
     image: "imgs/img9.png",
     firstname: "Feyisola ",
     lastname: "Arinola",
@@ -24,7 +24,7 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
-    id: 4,
+    id: 10,
     image: "imgs/img10.png",
     firstname: "Keren ",
     lastname: "Ibeh",
@@ -33,7 +33,7 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
-    id: 5,
+    id: 11,
     image: "imgs/img11.png",
     firstname: "Oluchi ",
     lastname: "Uzo",
@@ -41,7 +41,7 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
-    id: 6,
+    id: 12,
     image: "imgs/img12.png",
     firstname: "Amos ",
     lastname: "Okafor",

@@ -28,10 +28,10 @@ export default function FooterPage() {
               <input
                 type="email"
                 id="subscribe"
-                class=" rounded-l-lg   text-white focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-500 dark:border-gray-600 dark:placeholder-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className=" rounded-l-lg   text-white focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-500 dark:border-gray-600 dark:placeholder-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Enter your email address"
               />
-              <button class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 rounded-r-lg border  border-gray-300 dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+              <button className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 rounded-r-lg border  border-gray-300 dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
                 Subscribe
               </button>
             </div>

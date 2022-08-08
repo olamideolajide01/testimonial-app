@@ -19,8 +19,7 @@ const UseStateArray = () => {
   );
 };
 
-const Customer = ({ image, firstname, lastname, location, category, text }) => {
-  console.log(image);
+const Customer = ({ image, firstname, lastname, category, text }) => {
   return (
     <section className="text-sm  md:px-1  px-2">
       <p className="text-center">

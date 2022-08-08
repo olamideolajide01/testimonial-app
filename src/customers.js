@@ -32,7 +32,7 @@ const customers = [
     firstname: "Chisom ",
     lastname: "Obilor",
     location: "In Magode",
-    category: "Vendor",
+    category: "vendor",
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
@@ -41,7 +41,7 @@ const customers = [
     firstname: "Adunoluwa ",
     lastname: "Adeyemi",
     location: "Iwo Road",
-    category: "Vendor",
+    category: "vendor",
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
@@ -50,7 +50,7 @@ const customers = [
     firstname: "chidi ",
     lastname: "Okeke",
     location: "In Somolu",
-    category: "Vendor",
+    category: "vendor",
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
 ];
