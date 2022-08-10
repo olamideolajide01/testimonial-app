@@ -1,24 +1,19 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import NavigationBar from "./components/NavBar";
-import HeroPage from "./components/HeroPage";
-import FooterPage from "./components/FooterPage";
-import TestimonialHero from "./components/TestimonialHero";
-import Customer from "./components/Customer";
-import Vendors from "./components/Vendors";
-import ReviewForm from "./components/ReviewForm";
+import Home from "./pages/Home";
+import Stories from "./pages/Stories";
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar />
-      <main className="mb-32">
-        <HeroPage />
-        <Customer className=" container py-5 my-6" />
-        <TestimonialHero />
-        <Vendors className=" container" />
-        <ReviewForm />
-      </main>
-      <FooterPage />
+    <div>
+      <div>
+        <NavigationBar />
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/stories" element={<Stories />}></Route>
+      </Routes>
     </div>
   );
 }

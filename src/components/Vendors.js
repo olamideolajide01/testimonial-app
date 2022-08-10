@@ -1,16 +1,14 @@
 import React from "react";
-import vendors from "../vendors";
+import { data1 } from "../vendors";
 
-const UseStateArray = () => {
-  const [people, setPeople] = React.useState(vendors);
-
+const VendorArray = () => {
   return (
     <div className="md:flex flex-row container sm:w-4/5 md:justify-between pt-6 md:pt-10  lg:pt-15">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {people.map((person) => {
+        {data1.map((person) => {
           return (
             <div>
-              <Customer key={person.id} {...person}></Customer>
+              <Vendor key={person.id} {...person}></Vendor>
             </div>
           );
         })}
@@ -19,7 +17,9 @@ const UseStateArray = () => {
   );
 };
 
-const Customer = ({ image, firstname, lastname, category, text }) => {
+const Vendor = (props) => {
+  console.log(props);
+  const { image, firstname, lastname, category, text } = props;
   return (
     <section className="text-sm  md:px-1  px-2">
       <p className="text-center">
@@ -38,4 +38,4 @@ const Customer = ({ image, firstname, lastname, category, text }) => {
   );
 };
 
-export default UseStateArray;
+export default VendorArray;

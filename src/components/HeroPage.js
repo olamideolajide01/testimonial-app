@@ -1,11 +1,6 @@
 import React from "react";
 
-import ReviewForm from "../components/ReviewForm";
-
 export default function HeroPage() {
-  const [modal, setModal] = React.useState(false);
-  const Toggle = () => setModal(!modal);
-
   return (
     <div>
       <section className="md:flex flex-row container sm:w-4/5 md:justify-between pt-6 md:pt-10  lg:pt-15 ">
@@ -45,10 +40,7 @@ export default function HeroPage() {
               great, very good customer service, an all round great experience.
               I would definately be coming back!
             </p>
-            <button
-              onClick={() => Toggle()}
-              className="text-[.52rem] relative curve  sm:text-xs  mt-5"
-            >
+            <button className="text-[.52rem] relative curve  sm:text-xs  mt-5">
               SHARE YOUR OWN STORY
               <svg
                 width="200"
@@ -66,7 +58,6 @@ export default function HeroPage() {
           </div>
         </div>
       </section>
-      <ReviewForm show={modal} close={Toggle} />
     </div>
   );
 }

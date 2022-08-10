@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import ThankYou from "./ThankYou";
+import data from "./customer";
+
 
 export default function ReviewForm({ show, close }) {
   const [modalHappy, setModalHappy] = React.useState(false);
   const Toggle2 = () => setModalHappy(!modalHappy);
+
+  const[people, setPeople] = useState(data)
   const [testInfo, setTestInfo] = useState({
     image: "",
     firstName: "",

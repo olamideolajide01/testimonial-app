@@ -19,18 +19,9 @@ const UseStateArrays = () => {
   );
 };
 
-const Customer = ({
-  id,
-  image,
-  firstname,
-  lastname,
-  location,
-  category,
-  text,
-}) => {
+const Customer = ({ image, firstname, lastname, location, category, text }) => {
   return (
     <section className="text-sm  md:px-1  px-2">
-      <div key={id}></div>
       <p className="text-center">
         <img className="w-32 h-32" src={image} alt="" />
       </p>

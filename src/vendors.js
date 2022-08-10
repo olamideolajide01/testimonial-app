@@ -1,4 +1,4 @@
-const vendors = [
+export const data1 = [
   {
     id: 7,
     image: "imgs/img7.png",
@@ -28,7 +28,6 @@ const vendors = [
     image: "imgs/img10.png",
     firstname: "Keren ",
     lastname: "Ibeh",
-    location: "In Magode",
     category: "VENDOR",
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
@@ -49,5 +48,3 @@ const vendors = [
     text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
 ];
-
-export default vendors;

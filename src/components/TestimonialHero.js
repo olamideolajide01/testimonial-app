@@ -1,10 +1,6 @@
 import React from "react";
-import ReviewForm from "../components/ReviewForm";
 
 export default function TestimonialHero() {
-  const [modal, setModal] = React.useState(false);
-  const Toggle = () => setModal(!modal);
-
   return (
     <section className="bg-pink-50">
       <div className=" px-1  md:flex flex-row container sm:w-4/5 md:space-x-10 sm:space-x-5  justify-around pt-6 md:mt-10  lg:mt-15">
@@ -23,10 +19,7 @@ export default function TestimonialHero() {
             very good customer service, an all round great experience. I would
             definately be coming back!
           </p>
-          <button
-            onClick={() => Toggle()}
-            className="text-[.52rem] sm:text-xs text-orange mt-5 pb-3"
-          >
+          <button className="text-[.52rem] sm:text-xs text-orange mt-5 pb-3">
             SHARE YOUR OWN STORY
             <svg
               width="200"
@@ -45,9 +38,6 @@ export default function TestimonialHero() {
         <div className="flex bg-pink-100 justify-center item-center rounded-full mt-4  md:w-5/12 ">
           <img src="imgs/shopping-bag.png" className=" mt-4 " alt="" />
         </div>
-      </div>
-      <div>
-        <ReviewForm show={modal} close={Toggle} />
       </div>
     </section>
   );
