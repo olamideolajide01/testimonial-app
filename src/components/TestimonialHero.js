@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function TestimonialHero() {
   return (
@@ -19,7 +20,10 @@ export default function TestimonialHero() {
             very good customer service, an all round great experience. I would
             definately be coming back!
           </p>
-          <button className="text-[.52rem] sm:text-xs text-orange mt-5 pb-3">
+          <Link
+            to="/stories"
+            className="text-[.52rem] sm:text-xs text-orange mt-5 pb-3"
+          >
             SHARE YOUR OWN STORY
             <svg
               width="200"
@@ -33,7 +37,7 @@ export default function TestimonialHero() {
                 stroke="#FF5C00"
               />
             </svg>
-          </button>
+          </Link>
         </div>
         <div className="flex bg-pink-100 justify-center item-center rounded-full mt-4  md:w-5/12 ">
           <img src="imgs/shopping-bag.png" className=" mt-4 " alt="" />

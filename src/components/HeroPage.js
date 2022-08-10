@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HeroPage() {
   return (
@@ -40,7 +41,10 @@ export default function HeroPage() {
               great, very good customer service, an all round great experience.
               I would definately be coming back!
             </p>
-            <button className="text-[.52rem] relative curve  sm:text-xs  mt-5">
+            <Link
+              to="/stories"
+              className="text-[.52rem] relative curve  sm:text-xs  mt-5"
+            >
               SHARE YOUR OWN STORY
               <svg
                 width="200"
@@ -54,7 +58,7 @@ export default function HeroPage() {
                   stroke="#FF5C00"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </section>

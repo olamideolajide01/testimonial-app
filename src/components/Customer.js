@@ -1,18 +1,12 @@
 import React from "react";
-import customers from "../customers";
+import { customers } from "../customers";
 
 const UseStateArrays = () => {
-  const [people, setPeople] = React.useState(customers);
-
   return (
     <div className="md:flex flex-row container sm:w-4/5 md:justify-between pt-6 md:pt-10  lg:pt-15">
       <div className="grid grid-cols-1 mb-6 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {people.map((person) => {
-          return (
-            <div>
-              <Customer key={person.id} {...person}></Customer>
-            </div>
-          );
+        {customers.map((customer) => {
+          return <Customer key={customer.id} {...customer}></Customer>;
         })}
       </div>
     </div>
@@ -38,7 +32,7 @@ const Customer = ({ image, firstname, lastname, location, category, text }) => {
           </p>
         ) : (
           <p className="text-xs inline-block text-blue-600 font-semibold py-1 px-1 rounded bg-slate-200">
-            {category.toUpperCase()}{" "}
+            {category.toUpperCase()}
           </p>
         )}
       </div>

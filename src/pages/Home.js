@@ -3,7 +3,7 @@ import HeroPage from "../components/HeroPage";
 import FooterPage from "../components/FooterPage";
 import TestimonialHero from "../components/TestimonialHero";
 import Customer from "../components/Customer";
-import Vendors from "../components/Vendors";
+import VendorArray from "../components/Vendors";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <HeroPage />
         <Customer className=" container py-5 my-6" />
         <TestimonialHero />
-        <Vendors className=" container" />
+        <VendorArray className=" container" />
       </main>
       <FooterPage />
     </div>

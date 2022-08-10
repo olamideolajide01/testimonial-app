@@ -1,25 +1,19 @@
 import React from "react";
-import { data1 } from "../vendors";
+import { datas } from "../vendors";
 
-const VendorArray = () => {
+const vendorArray = () => {
   return (
     <div className="md:flex flex-row container sm:w-4/5 md:justify-between pt-6 md:pt-10  lg:pt-15">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {data1.map((person) => {
-          return (
-            <div>
-              <Vendor key={person.id} {...person}></Vendor>
-            </div>
-          );
+        {datas.map((data) => {
+          return <Vendor key={data.id} {...data}></Vendor>;
         })}
       </div>
     </div>
   );
 };
 
-const Vendor = (props) => {
-  console.log(props);
-  const { image, firstname, lastname, category, text } = props;
+const Vendor = ({ image, firstname, lastname, category, text }) => {
   return (
     <section className="text-sm  md:px-1  px-2">
       <p className="text-center">
@@ -38,4 +32,4 @@ const Vendor = (props) => {
   );
 };
 
-export default VendorArray;
+export default vendorArray;

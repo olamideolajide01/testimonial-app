@@ -1,4 +1,4 @@
-const customers = [
+export const customers = [
   {
     id: 1,
     image: "imgs/img1.png",
@@ -6,7 +6,7 @@ const customers = [
     lastname: "Ike",
     location: "In Ikeja",
     category: "customer",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex cula, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const customers = [
     lastname: "Fashina",
     location: "Ibadan",
     category: "customer",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetr, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const customers = [
     lastname: "Fayemi",
     location: "In lagos",
     category: "customer",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciut debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const customers = [
     lastname: "Obilor",
     location: "In Magode",
     category: "vendor",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const customers = [
     lastname: "Adeyemi",
     location: "Iwo Road",
     category: "vendor",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam mgnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 6,
@@ -51,8 +51,6 @@ const customers = [
     lastname: "Okeke",
     location: "In Somolu",
     category: "vendor",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit speriores ipsa inventore ",
   },
 ];
-
-export default customers;

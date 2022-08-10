@@ -1,11 +1,11 @@
-export const data1 = [
+export const datas = [
   {
     id: 7,
     image: "imgs/img7.png",
     firstname: "Temi ",
     lastname: "Obadofin",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debiis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 8,
@@ -13,7 +13,7 @@ export const data1 = [
     firstname: "Promise ",
     lastname: "Ejiofor",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis venam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 9,
@@ -21,7 +21,7 @@ export const data1 = [
     firstname: "Feyisola ",
     lastname: "Arinola",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing eit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 10,
@@ -29,7 +29,7 @@ export const data1 = [
     firstname: "Keren ",
     lastname: "Ibeh",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.Lorem ipsum dolor sit ameconsectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 11,
@@ -37,7 +37,7 @@ export const data1 = [
     firstname: "Oluchi ",
     lastname: "Uzo",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullamLorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
   {
     id: 12,
@@ -45,6 +45,6 @@ export const data1 = [
     firstname: "Amos ",
     lastname: "Okafor",
     category: "VENDOR",
-    text: "vero, delectus ullam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
+    text: "vero, delectus ullam.orem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Excepturi aliquam ex culpa, eius atque vero. Harum quod quam magnam nesciunt debitis veniam. Quos reprehenderit asperiores ipsa inventore ",
   },
 ];

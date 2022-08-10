@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 // import ThankYou from "../components/ThankYou";
-import data from "./../customers";
+// import data from "./../customers";
 
 export default function ReviewForm() {
-  const [people, setPeople] = useState(data);
+  // const [people, setPeople] = useState(data);
   const [testInfo, setTestInfo] = useState({
     image: "",
     firstName: "",
